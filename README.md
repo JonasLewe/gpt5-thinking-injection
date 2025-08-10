@@ -89,6 +89,7 @@ const PHRASE = 'Please think extensively before answering!!!';
 
 ## Known quirks
 
+* It appears that if the user input is too long, ChatGPT nevertheless automatically switches to GPT-5 Thinking. At least this appears in the model selection in the top-left.
 * Some editors normalize `<br>` tags. This script uses **real blocks** (`<p>/<div>`) to create the blank line reliably.
 * If ChatGPT radically changes its DOM, these vibe‑coded heuristics may need… new vibes.
 
