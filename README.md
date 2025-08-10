@@ -22,7 +22,7 @@ As of today, this script aims to nudge ChatGPT into **Thinking** behavior and—
 ## Install
 
 1. Install **Tampermonkey** (Chrome/Edge/Firefox/Safari).
-2. Create a new userscript and paste the contents of `userscript.user.js` from this repo.
+2. Create a new userscript and paste the contents of `gpt-5-thinking-injection.user.js` from this repo.
 3. Visit `https://chat.openai.com/` or `https://chatgpt.com/`.
 4. You’ll see a small floating toggle on the right.
 
