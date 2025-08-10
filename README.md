@@ -97,9 +97,9 @@ const PHRASE = 'Please think extensively before answering!!!';
 
 ## FAQ
 
-**Does this actually enable “GPT‑5 Thinking”?**
+**Does this actually enable “GPT‑5 Thinking” without using up it's rate-limits?**
 
-That’s the goal. Empirically it currently appears to trigger the Thinking model via prefix injection. This is not guaranteed and can break without notice.
+That’s the goal. Empirically it currently appears to trigger the Thinking model in the background via prefix injection, while still "utilizing" GPT-5 Regular limits. This is not guaranteed and can break without notice.
 
 
 **Is this allowed?**
